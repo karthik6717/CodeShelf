@@ -1,7 +1,8 @@
 import {Link} from "react-router-dom";
 import {Rating} from "./Rating";
-import {useCart} from "../../context";
 import {useEffect, useState} from "react";
+import {useCart} from "../../context";
+
 
 
 export const ProductCard = ({product}) => {
